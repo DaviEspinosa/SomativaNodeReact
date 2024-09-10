@@ -97,4 +97,4 @@ A aplicação ajudará leitores e administradores a gerenciar e acessar um acerv
 
 **Diagrama de Classe:**
 
-<img src="diagramas/ModeloClasse.png" alt="Diagrama" width="500"/>
+<img src="diagramas/diagramaClasse.png" alt="Diagrama" width="500"/>
