@@ -38,7 +38,7 @@ A aplicação ajudará leitores e administradores a gerenciar e acessar um acerv
     **Projeto será concluído em 8 semanas, seguindo este cronograma:**
     
     - Planejamento e definição de requisitos: 1 semana
-    - Desenvolvimento do backend (Laravel): 2 semanas
+    - Desenvolvimento do backen: 2 semanas
     - Desenvolvimento do frontend (React): 3 semanas
     - Integração e testes: 1 semana
     - Documentação e entrega: 1 semana
@@ -52,7 +52,7 @@ A aplicação ajudará leitores e administradores a gerenciar e acessar um acerv
 | Etapa | Descrição | Tempo Estimado |
 | --- | --- | --- |
 | Planejamento e definição de requisitos | Levantamento de requisitos, escopo, diagramas, objetivos e recursos | 1 semana |
-| Desenvolvimento do backend | Configuração do ambiente, criação de models e controllers, implementação de funcionalidades backend (Laravel) | 2 semanas |
+| Desenvolvimento do backend | Configuração do ambiente, criação de models e controllers, implementação de funcionalidades backend (Next) | 2 semanas |
 | Desenvolvimento do frontend | Implementação da interface do usuário e funcionalidades frontend (React) | 3 semanas |
 | Integração e testes | Integração entre frontend e backend, testes funcionais, correção de bugs | 1 semana |
 | Documentação e entrega | Revisão final, documentação técnica e de usuário, preparação para entrega | 1 semana |
@@ -65,7 +65,7 @@ A aplicação ajudará leitores e administradores a gerenciar e acessar um acerv
         - Desenvolvedor Backend: Especializado em Node.js
         - UX/UI Designer: Responsável pela experiência do usuário e design da interface.
     - **Ferramentas de Desenvolvimento:**
-        - IDE: Visual Studio Code com extensões para Laravel e React.
+        - IDE: Visual Studio Code com extensões para React.
         - Gerenciamento de Projeto: Jira para tarefas e sprints.
         - Prototipagem: Figma para design de interface e prototipagem.
     - **Tecnologias:**
