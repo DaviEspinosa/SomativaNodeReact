@@ -1,0 +1,58 @@
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 40px; /* Ajuste o tamanho da logo conforme necessário */
+  }
+  
+  .search-filter {
+    display: flex;
+    gap: 20px; /* Espaço entre a barra de pesquisa e a barra de filtragem */
+    flex-grow: 1; /* Ocupar o máximo de espaço disponível */
+    margin: 0 20px; /* Espaçamento lateral */
+  }
+  
+  .search-bar,
+  .filter-bar {
+    border: none;
+    border-bottom: 2px solid #2381D2;
+    padding: 5px;
+  }
+  .search-bar{
+    width: 200px;
+  }
+  .filter-bar{
+    width: 100px;
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre os botões */
+  }
+  
+  .auth-links button {
+    background-color: #2381D2;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .auth-links button:hover {
+    background-color: #1d6ab8;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    color: #333;
+  }
+  

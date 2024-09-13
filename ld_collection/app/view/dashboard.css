@@ -56,14 +56,15 @@ button:hover{
 .container-cards {
   display: flex;
   gap: 20px;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 20px;
 }
 
 /* Estilo dos cards */
 .card {
-  height: 300px; /* Aumenta a altura do card para acomodar a imagem e o texto */
-  width: 300px;
+  height: 230px; /* Aumenta a altura do card para acomodar a imagem e o texto */
+  width: 270px;
   box-shadow: 3px 3px 6px -5px #2381D2;
   border-radius: 8px;
   overflow: hidden; /* Garante que nada saia dos limites do card */
@@ -92,7 +93,7 @@ button:hover{
 /* Parte inferior do card para o texto */
 .card-content {
   height: 50%; /* A altura do conteúdo é a outra metade do card */
-  padding: 15px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -102,6 +103,9 @@ button:hover{
 .card-content h3 {
   margin: 0 0 10px 0;
   font-size: 1.2em;
+}
+.card-content p{
+  margin: 0;
 }
 
 /* Estilo da descrição e botão "Ver mais" */
@@ -143,16 +147,24 @@ button:hover{
 /* Estilo do botão de excluir */
 .card-content button {
   align-self: flex-start;
-  padding: 8px 12px;
-  border: none;
-  border-radius: 5px;
-  background-color: #e63946;
-  color: #fff;
+  padding: 4px 16px;
   cursor: pointer;
-  font-size: 0.9em;
-  transition: background-color 0.3s ease;
+  font-size: 0.5em;
+
 }
 
-.card-content button:hover {
+/* .card-content button:hover {
   background-color: #d62839;
+} */
+
+
+/* Botão para adicionar livros */
+.adicionarLivro{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
+/* -=-=-==-=--=-=-=-=-=-=-=-=- */

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Header from '@/app/view/parts/header.js'
 
 
 function Dashboard() {
@@ -62,6 +63,9 @@ function Dashboard() {
 
     return (
         <div class="Livros">
+            <div>
+                <Header/>
+            </div>
             <button class="adicionarLivro" onClick={toggleDiv}>+</button>
             <div class="formCadLivros" id="formCadLivros">
                 <h1>Cadastre um Livro ou Artigo</h1>
@@ -115,14 +119,14 @@ function Dashboard() {
                             <p><strong>Autor:</strong> {item.autor}</p>
                             <p><strong>Ano de Publicação:</strong> {item.anoPublicacao}</p>
                             <p><strong>Gênero:</strong> {item.genero}</p>
-                            <div className="description-container">
+                            {/* <div className="description-container">
                                 <p className="description-text">
                                     <span>{item.descricao}</span>
                                 </p>
                                 <button className="toggle-description" onClick={() => toggleDescription(item._id)}>
                                     {item.showMore ? 'Ver Menos' : 'Ver Mais'}
                                 </button>
-                            </div>
+                            </div> */}
                             <button onClick={() => deleteBiblioteca(item._id)}>Excluir</button>
                         </div>
                     </li>
