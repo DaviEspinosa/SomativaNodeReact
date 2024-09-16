@@ -28,6 +28,15 @@ body, html{
   justify-content: space-between;
   height: 60%;
 }
+.inputsBox .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inputsBox .left input{
+  border: none;
+  border-bottom: 2px solid #2381D2;
+}
 .formCadLivros .left, .formCadLivros .right{
   width: 45%;
   height: 90%;

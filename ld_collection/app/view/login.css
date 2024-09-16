@@ -1,0 +1,54 @@
+:root{
+    --main-color: #2381D2;
+}
+.bodyLoginUser {
+    height: 100vh;
+    background-image: url('./img/backgroundLoginRegister.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyLoginUser h1 {
+    margin: 0;
+}
+
+.bodyLoginUser form {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px 0px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bodyLoginUser form .buttonsLoginPage button {
+
+    margin-top: 0px;
+    padding: 5px 40px 5px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bodyLoginUser form .box-inputs{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.buttonsLoginPage{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonsLoginPage a{
+    text-decoration: none;
+    color: var(--main-color);
+    height: fit-content;
+}

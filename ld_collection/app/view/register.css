@@ -1,67 +1,86 @@
-/* RegisterForm.module.css
-.container {
+:root{
+    --mainColor: #2381D2;
+}
+
+.bodyRegisterUser{
+    height: 100vh;
+    background-image: url('./img/backgroundLoginRegister.jpg');
+    background-size: cover;
+}
+.bodyRegisterUser h1{
+    margin: 0;
+}
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.579);
+    z-index: 0;
+    display: flex;
+}
+/* temporário */
+.left, .right{
+    position: relative;
+    z-index: 5;
+    width: 50%;
+    height: 100%;
+}
+.left{
+    float: left;
+}
+.left .description{
+    height: 300px;
+    width: 400px;
+    color: aliceblue;
+}
+.left h1, .left p{
+    margin: 40px;
+    font-weight: bold;
+}
+.left p{
+    width: fit-content;
+    border-bottom: 2px solid white;
+}
+.right{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right form{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px 0px rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #f4f4f4;
-    padding: 20px;
+    
 }
-
-
-h1 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
+.right form .box-inputs{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-
-form {
+.box-inputs input{
     width: 100%;
-    max-width: 400px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form div {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #555;
-}
-
-form input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem;
-}
-
-form input:focus {
-    border-color: #0070f3;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 112, 243, 0.3);
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #0070f3;
-    color: #fff;
+    height: 30px;
     border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    border-bottom: 2px solid #2381D2;
 }
-
-button:hover {
-    background-color: #005bb5;
-} */
+.box-inputs input:focus{
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #2381D2;
+    background-color: #2380d23d;
+    border-bottom: 2px solid #2381D2;
+    transition: .5s;
+}
+.right button{
+    margin-top: 10px;
+    padding: 5px 50px 5px 50px;
+    border-radius: 5px ;
+}
