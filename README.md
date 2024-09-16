@@ -20,7 +20,7 @@ LDCollection é uma empresa em que você pode realizar a leitura de livros, docu
 
 - **Específico**:
     
-    Desenvolver uma aplicação web de acervo digital com funcionalidades básicas de CRUD (Create, Read, Update, Delete) para livros, leitura online, favoritação de livros, e gerenciamento de perfis de usuários.
+    Desenvolver uma aplicação web de acervo digital com funcionalidades básicas de CRUD (Create, Read, Update, Delete) para livros, leitura online, favoritação de livros.
     
 - **Mensurável:**
     - Tela de login e registro de usuários.
